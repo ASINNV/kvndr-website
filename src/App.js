@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+import logo from './images/kvndr-logo.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+          <a href="https://www.instagram.com/kvndr.io/">
+              <img src={logo} className="logo" alt="logo" />
+          </a>
+          <a className={"link"} href="https://www.instagram.com/kvndr.io/">
+              <p>Now playing on Instagram!</p>
+          </a>
       </header>
     </div>
   );
